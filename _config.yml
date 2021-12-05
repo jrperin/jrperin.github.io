@@ -11,7 +11,7 @@ title:            JRPerin
 tagline:          'Engenharia de Software'
 description:      'Troca de experiências em Engenharia de Software por um Engenheiro Nômade.'
 url:              http://jrperin.com
-baseurl:          .
+baseurl:          ''
 
 author:
   name:           'João Roberto Perin'
