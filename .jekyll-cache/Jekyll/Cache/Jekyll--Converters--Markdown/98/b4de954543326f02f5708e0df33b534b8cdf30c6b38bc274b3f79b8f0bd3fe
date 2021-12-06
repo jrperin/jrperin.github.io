@@ -1,0 +1,25 @@
+I"n<p><img src="https://miro.medium.com/max/700/1*rG6GnMOz0nlRUUU1Va7aTA.jpeg" alt="Container House" /></p>
+
+<p><a href="https://medium.com/@jrperin1975/docker-accessing-host-database-49e1ff92a40"><strong>Acesse meu Medium e veja versão em Inglês</strong></a></p>
+
+<hr />
+
+<h2 id="introdução">Introdução</h2>
+
+<p>Atualmente ao desenvolver uma aplicação, <strong>é impossível</strong> não pensar em embarcá-la em um <strong>contêiner</strong>.</p>
+
+<p>A conteinerização das nossas aplicações traz ganhos como padronização, portabilidade, automatização que facilitam em muito o deploy.
+Mas uma questão sempre fica rondando, até onde devemos levar para contêineres?</p>
+
+<p>Na minha opinião estruturas de bancos de dados como Mysql, Mariadb, MongoDb quando em produção, deveriam ter recursos mais dedicados a eles, mais “bare metal”. Aqui não estou considerando recursos de bancos de dados gerenciados pelos provedores de cloud como AWS, Google, Azure. Estou considerando que a gestão dos recursos dos bancos de dados é feita por você.</p>
+
+<p>Claro que se estivermos falando em ambiente de desenvolvimento, o cenário é outro.</p>
+
+<p>Colocar os recursos de banco de dados em contêineres, facilita muito para o desenvolvedor ter um um ambiente rodando. Sem que ele tenha que se preocupar com a infraestrutura.</p>
+
+<p>Para que um uma aplicação docker possa acessar o “mundo externo” é preciso informar para ela o IP do host (do hospedeiro).</p>
+
+<p>No <code class="language-plaintext highlighter-rouge">docker-compose</code> isso é feito pelo membro <code class="language-plaintext highlighter-rouge">extra_hosts</code> ou via linha de comando com o parâmetro <code class="language-plaintext highlighter-rouge">--add-hosts</code>, que adiciona o endereço ao DNS interno do Docker.</p>
+
+<p>Nesse <em>case</em>, vou focar no <strong>docker-compose</strong>.</p>
+:ET

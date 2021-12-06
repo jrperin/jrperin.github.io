@@ -1,26 +1,38 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+permalink:        /:title/
 
 
 # Setup
 title:            JRPerin
 tagline:          'Engenharia de Software'
-description:      'Troca de experiências em Engenharia de Software por um Engenheiro Nômade.'
-url:              http://jrperin.com
-baseurl:          /
+description:      'Blog para troca de experiências em Desenvolvimento de Sistemas por um Engenheiro Fintech.'
+url:              https://blog.jrperin.com
+baseurl:          '/'
 
 author:
   name:           'João Roberto Perin'
-  url:            https://github/jrperin
+  url:            https://www.linkedin.com/in/jrperin/
 
-paginate:         5
+paginate:         10
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
 github:
   repo:           https://github.com/jrperin
+
+
+# Gems
+gems: 
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap 

@@ -32,7 +32,8 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto Condensed', sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -79,13 +80,15 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  /* font-family: "Abril Fatface", serif; */
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.25rem;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+  font-size: x-large;
 }
 .sidebar-nav-item {
   display: block;
@@ -107,11 +110,17 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    position: absolute;
+    /* position: absolute; */
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
   }
+}
+
+/* jrperin */
+
+.avatar {
+  border-radius: 50%;
 }
 
 
@@ -242,9 +251,20 @@ a.sidebar-nav-item:focus {
 
 /* Brown */
 .theme-base-0f .sidebar {
-  background-color: #3f3e5d
+background-color: #0B0F59;
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
-  color: #3f3e5d;
+  color: #0B0F59;
+  
+/* #3c4144 */
+/* #3f3e5d */
+
+/* dark colors
+#012840
+#377D8C
+#05C7F2
+#623C73
+#0B0F59
+*/
 }

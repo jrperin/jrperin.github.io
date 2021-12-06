@@ -1,8 +1,11 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
+    <div >
+      <img class="avatar" src="{{ site.baseurl }}public/images/avatar.jpeg" alt="Avatar">
+    </div>
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.author.url }}" target="_blank" rel="noopener noreferrer">
           {{ site.title }}
         </a>
       </h1>
@@ -26,11 +29,17 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
+      <!-- <span class="sidebar-nav-item">v{{ site.version }}</span> -->
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p> 
+        <a href="{{ site.author.url }}" target="_blank" rel="noopener noreferrer">  
+          <i class="fa fa-linkedin-square" style="font-size:36px"></i> 
+        </a>
+    </p>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.<br>v{{ site.version }}</p>
   </div>
 </div>
