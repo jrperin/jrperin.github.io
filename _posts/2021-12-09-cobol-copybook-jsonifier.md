@@ -208,7 +208,7 @@ Por ser uma biblioteca em Python, liguagem que é bem difundida, deverá ser fá
 
 O Blog ainda está sem a funcionalidade de comentários.
 
-Críticas, sugestões, colaborar com o projeto etc, contate-me pelo **[Linkedin](https://www.linkedin.com/in/jrperin/)** que terei prazer em conversar. 🤘
+Críticas, sugestões, colaborar com o projeto etc, contate-me pelo **[Linkedin](https://www.linkedin.com/posts/jrperin_python-vs-cobol-lib-para-converter-arquivos-activity-6874699993261846528-C4qV)** que terei prazer em conversar. 🤘
 
 
 
