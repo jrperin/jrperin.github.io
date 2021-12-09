@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docker — Acessando Banco de Dados do Host
+title: Docker - Acessar Banco de Dados na Máquina Host
 comments: true
 categories: 
     - Docker
