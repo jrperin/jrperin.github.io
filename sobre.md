@@ -26,6 +26,10 @@ Coboleiros entenderão... 😜
 
 Acredito que seja uma maneira prática de compartilhar e aprender mais sobre tecnologia e troca de experiências.
 
+Usar o gitlab pages foi dica do meu amigo [John Owl](https://blog.johnowl.com). 
+
+Alías, ele trata de muito assunto interessante no [blog](https://blog.johnowl.com) dele.
+
 ## Encontre-me 
 
 * **[GitHub](https://github.com/jrperin)**
