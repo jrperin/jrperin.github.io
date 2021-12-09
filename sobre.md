@@ -14,19 +14,22 @@ Apaixonado por tecnologia desde meu 1º contato com MS-DOS e a linguagem Turbo P
 
 Nessa jornada adquiri conhecimentos sobre diversas plataformas de processamentos, como: Mainframe, Unix, Linux e Cloud.
 
-Trabalhei com sistemas críticos com processamento 24x7 e que exigiam SLA de uptime de processamento de 99,5% ao ano.
+Trabalhei com sistemas críticos de processamento 24x7 que exigiam SLA de uptime de processamento superior a 99,5% ao ano.
 
+### Por quê `JRP001`?
 
+Esse era o meu _remarks_ nos programas em Cobol.
+Coboleiros entenderão... 😜
 
-Encontre-me nas redes sociais: 
-
-* **[GitHub](https://github.com/jrperin)**
-* **[Medium](https://medium.com/@jrperin1975)**
-* **[Twitter](https://twitter.com/jrperin1975)**
-* **[Linkedin]({{ site.author.url }})**
 
 ## Por quê um blog?
 
 Acredito que seja uma maneira prática de compartilhar e aprender mais sobre tecnologia e troca de experiências.
 
+## Encontre-me 
+
+* **[GitHub](https://github.com/jrperin)**
+* **[Medium](https://medium.com/@jrperin1975)**
+* **[Twitter](https://twitter.com/jrperin1975)**
+* **[Linkedin]({{ site.author.url }})**
 
