@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python VS COBOL - Lib para Converter Arquivos Mainframe em Json
+title: Python Vs. COBOL - Lib para Converter Arquivos Mainframe em Json
 comments: true
 categories:
     - Python

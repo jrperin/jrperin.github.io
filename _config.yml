@@ -7,9 +7,9 @@ permalink:        /:title/
 
 
 # Setup
-title:            JRPerin
+title:            JRP001
 tagline:          'Engenharia de Software'
-description:      'Blog para troca de experiências em Desenvolvimento de Sistemas por um Engenheiro Fintech.'
+description:      'João Perin<br>Blog para troca de experiências em Desenvolvimento de Sistemas por um Engenheiro Nômade.'
 url:              https://blog.jrperin.com
 baseurl:          '/'
 
