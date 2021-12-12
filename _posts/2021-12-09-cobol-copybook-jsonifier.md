@@ -66,7 +66,7 @@ Como exemplo, vemos na tabela abaixo parte das diferenças nos valores hexadecim
 **Fonte:** _[IBM - ASCII and EBCDIC character sets](https://www.ibm.com/docs/en/xl-fortran-aix/16.1.0?topic=appendix-ascii-ebcdic-character-sets)_
 
 
-No Mainframe a forma mais comum de armazemamento de arquivos é em Flat Files, com tabanho fixo de registros e estrutura _(Fixo Blocado)_, podendo conter dados alfanuméricos ou nunéricos (binário)
+No Mainframe a forma mais comum de armazemamento de arquivos é em _Flat Files_, com tamanho fixo de campos e registros _(Fixo Blocado)_, podendo conter dados alfanuméricos ou numéricos (binário)
 
 Os programas que tratam esses arquivos no Mainframe geralmente são desenvolvidos em COBOL. 
 
