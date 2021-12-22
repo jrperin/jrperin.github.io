@@ -110,7 +110,7 @@ O programa em python **`huge-file-generator.py`** cria um arquivo com mais de 12
 
 **`huge-file-generator.py`**
 
-``` Python
+``` python
 #!venv/bin/python3
 
 import json
