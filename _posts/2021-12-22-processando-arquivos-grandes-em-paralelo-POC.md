@@ -8,7 +8,7 @@ categories:
     - ETL
     - Mainframe
     - Arquivo posicional
-description: POC sobre o processamento em paralelo de grandes arquivos recebidos de outras plataformas em buckets AWS S3 pela leitura por range do arquivo. 
+description: POC sobre o processamento em paralelo de grandes arquivos recebidos em buckets AWS S3 usando o recurso de leitura por range. 
 image: /public/images/poc-huge-files/navio.jpg
 ---
 
