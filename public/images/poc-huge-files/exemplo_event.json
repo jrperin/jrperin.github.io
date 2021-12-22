@@ -1,0 +1,39 @@
+{'Records': [
+        {'EventSource': 'aws:sns', 'EventVersion': '1.0', 'EventSubscriptionArn': 'arn:aws:sns:sa-east-1: 341374576331:poc-huge-file-created:b4ec05b4-b251-40a1-8cc5-3cd8f45e366a', 'Sns': {'Type': 'Notification', 'MessageId': '4332b326-cc66-5b61-b947-e912786a5c60', 'TopicArn': 'arn:aws:sns:sa-east-1: 341374576331:poc-huge-file-created', 'Subject': 'Amazon S3 Notification', 'Message': '{
+                    "Records": [
+                        {
+                            "eventVersion": "2.1",
+                            "eventSource": "aws:s3",
+                            "awsRegion": "sa-east-1",
+                            "eventTime": "2021-12-16T03:25:59.440Z",
+                            "eventName": "ObjectCreated:Put",
+                            "userIdentity": {
+                                "principalId": "AWS:AIDAU664CU3FYDR7EDBTW"
+                            },
+                            "requestParameters": {
+                                "sourceIPAddress": "189.120.79.125"
+                            },
+                            "responseElements": {
+                                "x-amz-request-id": "XB29JN2C9BEMFAZS",
+                                "x-amz-id-2": "xmzFghztF15fKqnA5xNm1Q/6NKkw4OBO5k8cE8kmultuDLR20ajg3qjXm/6Vc0XE3bFTLeWauQvJIUUOH9FKIUYrjdr4ew/J"
+                            },
+                            "s3": {
+                                "s3SchemaVersion": "1.0",
+                                "configurationId": "poc-huge-file-created",
+                                "bucket": {
+                                    "name": "jrperin-huge-file",
+                                    "ownerIdentity": {
+                                        "principalId": "AB5S3D38X5IP0"
+                                    },
+                                    "arn": "arn:aws:s3:::jrperin-huge-file"
+                                },
+                                "object": {
+                                    "key": "moedas.txt",
+                                    "size": 15050,
+                                    "eTag": "06d368c57273706d353ce0734274c7aa",
+                                    "sequencer": "0061BAB1CB20238BA4"
+                                }
+                            }
+                        }
+                    ]
+                }', 'Timestamp': '2021-12-16T03: 26: 04.881Z', 'SignatureVersion': '1', 'Signature': 'cmr9Et1WfAWOppuppXPTFsRRHNufLCId7+6bsbgtOswjvKCNFhXoa39YBTmCw3Eo0QlvIps/J+HSv2QCaocPDiOBPH4Fvp/h6dPkDaT4IFdziLUeorHQ/XV4eYmD/0HIidjmfVX5V/mfxN0ytaxV66NVZ6L98yPuYUVpk+ltdNBloECuZ8UGnOTyGoIKvOv+w9r6JfwBhpxPCG/1s5SmvUvBhkzB7hOGxR4353CkUoTlj/Wo66PdQ393ZELS5sYCr6TBSrBKZ9mKACTF15GkSnw5KMVPPS33m+g98wJS53FPjyKJiGoCp0+N/oUz8T/U2K5RPWW5Qk9wS+hUAE0K7g==', 'SigningCertUrl': 'https: //sns.sa-east-1.amazonaws.com/SimpleNotificationService-7ff5318490ec183fbaddaa2a969abfda.pem', 'UnsubscribeUrl': 'https://sns.sa-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:sa-east-1:341374576331:poc-huge-file-created:b4ec05b4-b251-40a1-8cc5-3cd8f45e366a', 'MessageAttributes': {}}}]}
