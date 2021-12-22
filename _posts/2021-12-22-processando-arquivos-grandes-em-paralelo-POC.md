@@ -175,6 +175,7 @@ with open('big-file.txt', 'w') as f:
             count += 1
 
     print(f'Lines = {count}')
+    
 ```
 
 Arquivo gerado e exemplo de conteúdo. **Figuras 3 e 4**.
