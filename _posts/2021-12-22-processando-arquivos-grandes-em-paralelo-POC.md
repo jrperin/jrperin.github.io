@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Processando Arquivos Grandes em Paralelo - POC | AWS S3
+title: POC | AWS S3 - Processando Arquivos Grandes em Paralelo
 comments: true
 categories:
     - Python
@@ -16,7 +16,7 @@ image: /public/images/poc-huge-files/navio.jpg
 
 ## Introdução
 
-No [post anterior](https://blog.jrperin.com/cobol-copybook-jsonifier/), comentei sobre a [lib em Python](https://blog.jrperin.com/cobol-copybook-jsonifier/) que fiz para converter arquivos do Mainframe em JSON. 
+No post anterior comentei sobre a lib em Python que fiz para converter arquivos do Mainframe em JSON ([veja aqui](https://blog.jrperin.com/cobol-copybook-jsonifier/)). 
 
 Continuando no tema de integração entre plataformas, vou falar sobre uma abordagem interessante para tratar arquivos grandes *(Big Files / Huge Files)*. 
 
@@ -454,6 +454,14 @@ Cada Worker levou pouco mais de 1 minuto para encerrar.
 
 O tempo total de processamento foi de 1 minuto e 35 segundos para particionar em 3 o arquivo de 12Gb.
 
+
+## Dica
+Para facilitar encontrar as logs das execuções tanto do **Strategist** quanto dos **Workers** foi criado um Correlation ID (CID) do processamento.
+
+Para que o resultado da execução de cada **Worker** fique em uma log independente no Cloud Watch é interessante ligar a opção [AWS X-Ray](https://aws.amazon.com/pt/xray/pricing/).
+
+![](/public/images/poc-huge-files/aws_x-ray.png)
+
 ----
 
 # Conclusão
@@ -473,3 +481,8 @@ O tempo total de processamento foi de 1 minuto e 35 segundos para particionar em
 
     * Cada Worker antes de atingir seu limite de tempo de execução poderia iniciar uma nova instância do Worker, passando até o ponto onde foi processado para que o seguinte dê continuidade no processamento. Essa proposta depende de outro recurso do AWS S3 que é o Muiltpart Upload. 
 
+---
+
+# NOTA!
+
+Críticas, sugestões, colaborar com o projeto etc, utilize a área para comentários ou contate-me pelo [Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6879466000341839873/) que terei prazer em conversar. 🤘

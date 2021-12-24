@@ -230,6 +230,7 @@ blockquote p:last-child {
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
@@ -412,6 +413,7 @@ a.pagination-item:hover {
 @media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
+    max-width: 30em;
   }
   .pagination-item {
     float: left;
