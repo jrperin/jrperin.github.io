@@ -10,7 +10,7 @@ permalink:        /:title/
 title:            JRP001
 tagline:          'Engenharia de Software'
 description:      'João Perin<br>Blog para troca de experiências em Desenvolvimento de Sistemas por um Engenheiro Nômade.'
-url:              https://blog.jrperin.com
+url:              https://jrperin.com
 baseurl:          '/'
 
 author:
@@ -25,14 +25,8 @@ version:          1.0.0
 github:
   repo:           https://github.com/jrperin
 
-
-# Gems
-gems: 
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-sitemap
-
-plugins: 
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-sitemap 
+# Plugins
+# plugins: 
+#   - jekyll-paginate
+#   - jekyll-gist
+#   - jekyll-sitemap 

@@ -19,7 +19,7 @@ Trabalhei com sistemas críticos de processamento 24x7 que exigiam SLA de uptime
 ### Por quê `JRP001`?
 
 Esse era o meu _remarks_ nos programas em Cobol.
-Coboleiros entenderão... 😜
+Coboleiros entenderão... 
 
 
 ## Por quê um blog?
